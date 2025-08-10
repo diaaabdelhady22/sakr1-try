@@ -1,0 +1,54 @@
+.upper {
+    height: 10%; /* 70px converted to percentage */
+    width: 100%;
+    background-color: gold;
+    font-size: 3.5vw; /* font size in % of viewport width for responsiveness */
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+}
+
+.plat {
+    color: blue;
+    font-size: 5vw;
+    top: 5%;
+    border: none;
+    font-weight: bold;
+}
+
+#logo {
+    border-radius: 50%;
+    position: relative; /* 'display: relative' is invalid, replaced with position */
+    bottom: 15%;
+}
+
+body {
+    background-color: blue;
+}
+
+#codeInput {
+    height: 10%;
+    width: 94%;
+    background-color: gold;
+    border-radius: 30px;
+    color: blue;
+    font-size: 5vw;
+
+}
+
+#bb {
+    width: 15%;
+    height: 10%;
+    border-radius: 20px;
+    font-size: 4vw;
+    background-color: gold;
+    color: blue;
+    border: none;
+}
+
+#gg {
+    color: gold;
+}

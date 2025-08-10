@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="
+        stylesheet" href="style.css">
+        <link rel="website icon" href="logo.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <div class="upper" align="center">
+
+ sakr <img src="logo.jpg" width="60px" id="logo"><span class="
+plat">platform</span>
+        </div><br><br><br><br><br><br><center><img src="logo.jpg" width="300px" id="logo"></center><br>
+       <center> <input type="text" id="codeInput" align="center"><br><br>
+    <input type="button" value="submit" id="bb" onclick="go()">
+    <br><br><br><br><br><br><a href="forget.html" id="gg">i forget my code</a></center>
+    <script>
+    function go() {
+      const code = document.getElementById('codeInput').value.trim();
+      if(code) {
+        window.location.href = "channel.html?code=" + encodeURIComponent(code);
+      } else {
+        alert('please enter your code');
+      }
+    }
+  </script>
+    </body>
+</html>
